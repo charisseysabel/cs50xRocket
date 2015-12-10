@@ -1,0 +1,116 @@
+/**
+ *  inv_style.css
+ *  styles for the inventory page
+ */
+
+.inv_btn {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    color: #ababab;
+}
+
+.inv_btn a {
+    color: #ababab;
+    padding: 12px;
+}
+
+.inv_btn a:hover {
+    color: #2fc3d4;
+    text-decoration: none;
+}
+
+.btn {
+    background: none;
+    margin-right: 5px;
+    color:  #ababab;
+    width: 80px;
+}
+
+
+.btn:hover{
+    background: none;
+    color: #0f7abf;
+}
+
+#inv_tbl{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+/**
+ *  add form styles
+ */
+.form-group {
+    width: 200px;
+}
+
+p {
+    color: #ababab;
+    font-size: smaller;
+}
+
+
+
+/**
+ *  override default datatables styles
+ */
+ 
+h1 {
+    font-weight: normal;
+}
+table.dataTable thead th {
+    font-weight: normal;
+    border-bottom: none;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none;
+}
+
+table.dataTable.no-footer #income {
+    clear: both;
+    margin-top: 100px;
+}
+
+button.dt-button, div.dt-button, a.dt-button {
+    border: 1px solid #ababab;
+    background: none;
+    color: #ababab;
+}
+
+button.dt-button:hover, div.dt-button:hover, a.dt-button:hover {
+    color: #0f7abf;
+    background: none;
+}
+
+table.dataTable.display tbody tr td.sorting_1 {
+    color: #333;
+}
+
+label input {
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ababab;
+}
+
+table.dataTable.display tbody>tr.selected:hover {
+    background-color: #0f7abf;
+}
+
+table.dataTable.display tbody>tr.selected:hover>sorting_1 {
+    background-color: #0f7abf;
+}
+
+table.dataTable.display tbody tr:hover. selected {
+    background-color: #0f7abf;
+    color: #fff;    
+}
+
+
+
+ 
+ 
+

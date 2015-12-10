@@ -1,0 +1,324 @@
+/**
+ *	dash_style.css
+ *	render default style for the dashboard
+ *	particularly the menu panel.
+ */
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+ 
+/**
+ *	LAYOUT
+ *
+ */
+ 
+.menu_panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+	width: 200px;    
+	height: 100%;
+	background-color: #2b2b2b;
+	color: white;
+	font-size: 12px;
+}
+
+.canvas {
+
+    margin-left: 200px;
+    height: 100%;
+    width: auto;
+    position: relative;
+    overflow: auto;
+    z-index: 1;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+
+/**
+ *  fixed menu panel
+ */
+
+.menu_panel ul {
+    margin-top: 100px;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.menu_panel ul li {
+	padding: 10px;
+}
+
+.menu_panel ul li a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.menu_panel ul li:hover {
+    background-color: #0f7abf;
+}
+
+.menu_panel ul li a:hover {
+    text-decoration: none;
+}
+
+#extra_options ul{
+    padding: 0;
+    margin: 280px 0 0 0;
+    width: 200px;
+}
+
+
+#extra_options ul li a{
+    border-bottom: none;
+}
+
+#extra_options ul li a:hover {
+    border-bottom: none;
+}
+
+/**
+ *  canvas
+ */
+ 
+h1, h2 {
+    font-family: "Ubuntu", sans-serif;
+    color:  #e9662c; 
+}
+
+.mid {
+    padding: 20px;
+}
+
+
+/**
+ *  dashboard home
+ */
+ 
+#clock, #date{
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    line-height: 10px;
+} 
+
+img  {
+    position: aboslute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;   
+}
+
+.image {
+    animation: imageAnimation 25s linear infinite 0s;
+    animation-iteration-count: 1;
+}
+
+.greeting {
+    margin-left: 35%;
+    margin-top: -50%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+/* animation for background */
+@-webkit-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -webkit-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;   
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/**
+ *  cashflow tab
+ */
+ 
+#myChart {
+    width: 100%;
+    height: 50%;
+}
+
+.cash_inc, .item_inc {
+    color: rgba(49, 189, 193, 1);
+}
+
+.cash_exp, .item_exp {
+    color: rgba(245, 134, 37, 1);
+}
+
+
+/**
+ *  transactions tab
+ */
+
+#canvas_div {
+    clear: both;
+    margin-top: 30px;
+}
+
+#expenses, #income {
+    display: inline;
+    width: 100%;
+    height: 50%;
+}
+ 
+.trans_date, #trans_cat {
+    font-style: italic;
+    color: #ababab;
+}
+
+.trans_name {
+    text-transform: uppercase;
+}
+
+.amount {
+    text-align: center;
+}
+
+.ajax_btn {
+    float: right;
+}
+
+.trans_btn {
+    margin-top: 10px;
+    clear: both;
+    float: right;
+}
+
+.trans_btn a {
+    padding: 12px;
+    color: #ababab;
+}
+
+.trans_btn a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #2fc3d4;
+    color: #2fc3d4;
+}
+
+/*link in rows for inventory and transactions tab*/
+.td_link a {
+    color: #ababab;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.td_link a:hover {
+    color: #2fc3d4;
+    text-decoration: none;
+}
+
+/**
+ *  settings tab
+ */
+
+.del_acc {
+    margin-top: 80px;
+}
+
+.del_acc button {
+    width: 130px;
+}
+
+.del_acc p {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
